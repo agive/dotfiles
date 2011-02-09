@@ -1,4 +1,4 @@
 Host isound
-	HostName isound.com
-	User root
+	HostName direct.isound.com
+	User deploy
 	
