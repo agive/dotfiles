@@ -1,0 +1,15 @@
+[user]
+        name = DJ Burdick
+        email = burdick.dj@gmail.com
+[color]
+        status = auto
+        branch = auto
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master

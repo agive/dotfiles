@@ -1,5 +1,6 @@
 alias h='history'
 alias gc="open -a 'Google Chrome'"
+alias mate="open -a 'TextMate'"
 
 alias cdp="cd ~/Programming"
 
