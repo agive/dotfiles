@@ -1,0 +1,19 @@
+dotfiles readme
+
+1. Clone to "bin" dir in user home
+2. .bashrc
+. ~/bin/dotfiles/bashrc
+3. .bash_profile
+if [ -f ~/.bashrc ];
+then
+	source ~/.bashrc
+fi
+
+4. Symlinks
+ln -s bin/dotfiles/git/config .gitconfig
+
+ln -s bin/dotfiles/ruby/irbrc .irbrc
+
+ln -s bin/dotfiles/vim/vimrc .vimrc
+
+ln -s bin/dotfiles/ruby/gemrc .gemrc
