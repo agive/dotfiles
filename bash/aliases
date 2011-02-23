@@ -1,8 +1,18 @@
 alias h='history'
 alias gc="open -a 'Google Chrome'"
 alias mate="open -a 'TextMate'"
-
 alias cdp="cd ~/Programming"
+
+# storage
+alias reds="/Users/djburdick/bin/redis/redis-server /Users/djburdick/bin/redis/redis.conf"
+alias redc="/Users/djburdick/bin/redis/redis-cli"
+alias mems="memcached -vv"
+alias memc="telnet localhost 11211"
+alias myc="mysql -u castle -p"
+
+# rails
+alias sc="script/console"
+alias ss="script/server"
 
 function take() { 
     mkdir -p "$1"

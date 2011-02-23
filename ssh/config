@@ -1,4 +1,13 @@
-Host isound
-	HostName direct.isound.com
-	User deploy
-	
+Host tunnel.wonderhill.com
+  User djburdick
+  ForwardAgent yes
+  Port 2222
+Host *.colo
+  User ooga
+  ForwardAgent yes
+  Port 2222
+  ProxyCommand ssh -q tunnel.wonderhill.com nc %h %p
+Host djburdick.tunnel.wonderhill.com
+  User djburdick
+  ForwardAgent yes
+  Port 2222
