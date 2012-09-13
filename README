@@ -1,6 +1,6 @@
-     cd;git clone git@github.com:djburdick/dotfiles.git
+     cd;git clone git@github.com:djburdick//dotfiles.git
 
-     ln -s dotfiles/git/config .gitconfig
-     ln -s dotfiles/ruby/irbrc .irbrc
-     ln -s dotfiles/vim/vimrc .vimrc
-     ln -s dotfiles/ruby/gemrc .gemrc
+     ln -s ~/dotfiles/git/config ~/.gitconfig
+     ln -s ~/dotfiles/ruby/irbrc ~/.irbrc
+     ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+     ln -s ~/dotfiles/ruby/gemrc ~/.gemrc
