@@ -1,5 +1,5 @@
 1. Clone
-     `cd;git clone git@github.com:djburdick//dotfiles.git`
+     cd;git clone git@github.com:djburdick//dotfiles.git
 
 2. Symlink
      ln -s ~/dotfiles/git/config ~/.gitconfig
