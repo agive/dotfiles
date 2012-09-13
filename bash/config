@@ -1,7 +1,0 @@
-# Update the command prompt to be <user>:<current_directory>(git_branch) >
-# Note that the git branch is given a special color
-
-NO_COLOR='\e[0m' #disable any colors
-EBLACK='\e[1;30m'
-
-PS1="\n\u:\w \[$EBLACK\]\$(vcprompt)\[$NO_COLOR\] \n→ "
