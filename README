@@ -1,6 +1,12 @@
+1. Clone
      cd;git clone git@github.com:djburdick//dotfiles.git
 
+2. Symlink
      ln -s ~/dotfiles/git/config ~/.gitconfig
      ln -s ~/dotfiles/ruby/irbrc ~/.irbrc
      ln -s ~/dotfiles/vim/vimrc ~/.vimrc
      ln -s ~/dotfiles/ruby/gemrc ~/.gemrc
+
+3. Bashrc in correct place 
+     cd ~/dotfiles;mv bashrc ~/.bashrc
+
