@@ -1,0 +1,28 @@
+### Alias ###
+alias h='history'
+
+# ssh
+alias gfs="ssh staging-godfather.colo"
+
+# storage
+alias redis="redis-server /usr/local/etc/redis.conf" 
+alias my="mysql -u dev"
+
+### Settings ###
+NO_COLOR='\e[0m' #disable any colors
+EBLACK='\e[1;30m'
+
+PS1="\n\u:\w \[$EBLACK\]\$(vcprompt)\[$NO_COLOR\] \n→ "
+
+function take() { 
+    mkdir -p "$1"
+    cd "$1" 
+}
+
+### Paths ###
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+export PATH=/opt/local/bin:/opt/local/sbin:$HOME/bin:$PATH:/usr/local/bin:/Library/MySQL/bin:/usr/local/mysql/bin:/opt/local/sbin:$PATH
+export MANPATH=`/usr/bin/manpath`
+export MANPATH=/opt/local/share/man:$MANPATH
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
