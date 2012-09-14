@@ -1,8 +1,0 @@
-export CLICOLOR=1
-export LSCOLORS=ExFxCxDxBxegedabagacad
-export PATH=/opt/local/bin:/opt/local/sbin:$HOME/bin:$PATH:/usr/local/bin:/Library/MySQL/bin:/usr/local/mysql/bin:/opt/local/sbin:$PATH
-export MANPATH=`/usr/bin/manpath`
-export MANPATH=/opt/local/share/man:$MANPATH
-export REMOTE_TUNNEL="djburdick@tunnel.wonderhill.com:9777"
-export EDITOR="$HOME/bin/mate -w"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
