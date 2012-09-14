@@ -6,6 +6,7 @@
      ln -s ~/dotfiles/ruby/irbrc ~/.irbrc
      ln -s ~/dotfiles/vim/vimrc ~/.vimrc
      ln -s ~/dotfiles/ruby/gemrc ~/.gemrc
+     ln -s ~/dotfiles/vim/ ~/.vim
 
 3. vim .bash_profile
 if [ -f ~/.bashrc ];
