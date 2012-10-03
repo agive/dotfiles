@@ -14,5 +14,5 @@ then
 fi
 
 4. Bashrc in correct place 
-     cd ~/dotfiles;mv bashrc ~/.bashrc
+     cd ~/dotfiles;cp bashrc ~/.bashrc
 
