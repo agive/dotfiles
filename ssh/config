@@ -1,13 +1,14 @@
-Host tunnel.wonderhill.com
-  User djburdick
+# sample ssh config
+Host tunnel.example.com
+  User user_name
   ForwardAgent yes
   Port 2222
 Host *.colo
-  User ooga
+  User user_name2
   ForwardAgent yes
   Port 2222
-  ProxyCommand ssh -q tunnel.wonderhill.com nc %h %p
-Host djburdick.tunnel.wonderhill.com
-  User djburdick
+  ProxyCommand ssh -q tunnel.example.com nc %h %p
+Host user_name.tunnel.example.com
+  User user_name
   ForwardAgent yes
   Port 2222
