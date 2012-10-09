@@ -26,4 +26,4 @@
 	external = p4diff
 
 [core]
-	excludesfile = ~/dotfiles/.gitignore
+	excludesfile = ~/dotfiles/git/gitignore
