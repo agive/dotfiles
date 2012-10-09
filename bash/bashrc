@@ -3,7 +3,10 @@ alias h='history'
 alias gs="git status"
 
 # ssh
-alias gfs="ssh staging-godfather.colo"
+alias des="ssh deagle-staging.colo"
+
+# vim
+alias vim="mvim"
 
 # storage
 alias redis="redis-server /usr/local/etc/redis.conf" 
