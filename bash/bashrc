@@ -4,6 +4,7 @@ alias gs="git status"
 
 # ssh
 alias des="ssh deagle-staging.colo"
+alias aws="ssh ec2-user@ec2-23-20-13-68.compute-1.amazonaws.com"
 
 # vim
 alias vim="mvim"
