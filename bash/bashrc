@@ -27,6 +27,7 @@ function take() {
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 export PORT=3000    # port for foreman
+export RACK_ENV=development  # env for thin server
 
 ### Paths ###
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/mysql/bin:$PATH
