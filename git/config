@@ -28,3 +28,5 @@
 [core]
 	excludesfile = ~/dotfiles/git/gitignore
 	editor = /usr/local/bin/vim
+[push]
+	default = matching
