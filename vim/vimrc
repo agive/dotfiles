@@ -77,4 +77,4 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " open a NERDTree automatically when vim starts up if no files were specified
 autocmd vimenter * if !argc() | NERDTree | endif
 
-:imap ii <Esc>
+:imap jk <Esc>
