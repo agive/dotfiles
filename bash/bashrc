@@ -3,6 +3,9 @@ alias h='history'
 alias gs="git status"
 alias gitk='gitk 2>/dev/null' # fix for xcode error with gitk
 
+# rails
+alias migrate="bundle exec rake db:migrate && bundle exec rake db:migrate RAILS_ENV=test"
+
 # ssh
 alias aws="ssh ec2-user@ec2-23-20-13-68.compute-1.amazonaws.com"
 alias aws2="ssh -i ~/.ssh/rake2.pem ubuntu@ec2-50-17-94-49.compute-1.amazonaws.com"
