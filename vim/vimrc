@@ -82,3 +82,5 @@ autocmd vimenter * if !argc() | NERDTree | endif
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 set undodir=~/.vim/undo//
+
+autocmd BufWritePre *.rb :%s/\s\+$//e
