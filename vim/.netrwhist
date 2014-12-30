@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/dj/Google Drive/Study/CS107/assn-4-rss-news-search'
+let g:netrw_dirhist_2='/Users/dj/Code/Git'
+let g:netrw_dirhist_3='/Users/dj/Code/Fixed/ParseCloud/cloud'
+let g:netrw_dirhist_4='/Users/dj/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/bundler/gems/turkee-02256566312a'
+let g:netrw_dirhist_5='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain'
+let g:netrw_dirhist_6='/Users/dj/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/bundler/gems/urbanairship-05cde15352f6'
+let g:netrw_dirhist_7='/Users/dj/Code/FixedMisc/certs'
