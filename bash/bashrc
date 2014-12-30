@@ -1,10 +1,15 @@
 ### Alias ###
 alias h='history'
 alias gs="git status"
+alias gitk='gitk 2>/dev/null' # fix for xcode error with gitk
+
+# rails
+alias migrate="bundle exec rake db:migrate && bundle exec rake db:migrate RAILS_ENV=test"
 
 # ssh
-alias des="ssh deagle-staging.colo"
 alias aws="ssh ec2-user@ec2-23-20-13-68.compute-1.amazonaws.com"
+alias aws2="ssh -i ~/.ssh/rake2.pem ubuntu@ec2-50-17-94-49.compute-1.amazonaws.com"
+alias aws3="ssh -i ~/.ssh/test.pem ec2-user@ec2-54-224-29-105.compute-1.amazonaws.com"
 
 # vim
 alias vim="mvim"
@@ -16,6 +21,7 @@ alias my="mysql -u root"
 ### Settings ###
 NO_COLOR='\e[0m' #disable any colors
 EBLACK='\e[1;30m'
+RAILS_ENV="development"
 
 PS1="\n\u:\w \[$EBLACK\]\$(vcprompt)\[$NO_COLOR\] \n$ "
 
@@ -25,10 +31,11 @@ function take() {
 }
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
-export PORT=3000    # port for foreman
 
 ### Paths ###
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/mysql/bin:$PATH
 export PATH="/usr/local/heroku/bin:$PATH"
 export MANPATH=`/usr/bin/manpath`
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+export BUNDLER_EDITOR="/usr/local/bin/mvim"
+
+eval "$(rbenv init -)"

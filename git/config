@@ -1,7 +1,7 @@
 
 [user]
-        name = DJ Burdick
-        email = dburdick@kabam.com 
+	name = DJ Burdick
+	email = burdick.dj@gmail.com
 [color]
         status = auto
         branch = auto
@@ -27,3 +27,6 @@
 
 [core]
 	excludesfile = ~/dotfiles/git/gitignore
+	editor = /usr/local/bin/vim
+[push]
+	default = matching

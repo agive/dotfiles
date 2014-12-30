@@ -42,16 +42,17 @@ set autoindent
 set cindent
 
 " UNCOMMENT TO USE
-"set tabstop=2                    " Global tab width.
-"set shiftwidth=2                 " And again, related.
-"set expandtab                    " Use spaces instead of tabs
+set tabstop=2                    " Global tab width.
+set shiftwidth=2                 " And again, related.
+set expandtab                    " Use spaces instead of tabs (comment out for python)
 
 set laststatus=2                  " Show the status line all the time
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 " Or use vividchalk
-colorscheme topfunky-light
+set background=dark
+colorscheme solarized
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
@@ -76,3 +77,11 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 " open a NERDTree automatically when vim starts up if no files were specified
 autocmd vimenter * if !argc() | NERDTree | endif
+
+:imap jk <Esc>
+
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
+
+autocmd BufWritePre *.rb :%s/\s\+$//e
