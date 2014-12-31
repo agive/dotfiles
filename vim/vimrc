@@ -74,8 +74,8 @@ map <leader>tm :tabmove
 " close vim if the only window left open is a NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-" open a NERDTree automatically when vim starts up if no files were specified
-autocmd vimenter * if !argc() | NERDTree | endif
+" Map NE to NERDTree
+:command NE NERDTree
 
 :imap jk <Esc>
 
@@ -84,3 +84,7 @@ set directory=~/.vim/swap//
 set undodir=~/.vim/undo//
 
 autocmd BufWritePre *.rb :%s/\s\+$//e
+
+" Map Ag (silver searcher) to \
+nnoremap \ :Ag<SPACE>
+
