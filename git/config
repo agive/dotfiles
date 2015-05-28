@@ -27,10 +27,14 @@
 
 [core]
 	excludesfile = ~/dotfiles/git/gitignore
-	editor = /usr/local/bin/vim
+	editor = /usr/bin/vim
 [push]
 	default = matching
 [filter "media"]
+	required = true
 	clean = git media clean %f
 	smudge = git media smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
 	required = true
