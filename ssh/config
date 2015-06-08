@@ -12,3 +12,6 @@ Host user_name.tunnel.example.com
   User user_name
   ForwardAgent yes
   Port 2222
+Host derp
+ User scratch
+ Hostname 192.241.227.104
