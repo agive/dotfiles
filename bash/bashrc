@@ -32,11 +32,14 @@ function take() {
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
+export HISTFILESIZE=10000
+
 ### Paths ###
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/mysql/bin:$PATH
 export PATH="/usr/local/heroku/bin:$PATH"
 export MANPATH=`/usr/bin/manpath`
 export BUNDLER_EDITOR="/usr/local/bin/mvim"
 export ANDROID_HOME="/usr/local/Cellar/android-sdk/24.0.2"
+export SCRAPE_BOX="true"
 
 eval "$(rbenv init -)"

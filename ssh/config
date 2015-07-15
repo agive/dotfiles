@@ -15,3 +15,6 @@ Host user_name.tunnel.example.com
 Host derp
  User scratch
  Hostname 192.241.227.104
+Host fixed-upload 
+ User ec2-user 
+ Hostname 52.7.122.1
