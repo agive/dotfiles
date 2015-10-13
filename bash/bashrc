@@ -1,6 +1,8 @@
 ### Alias ###
 alias h='history'
 alias gs="git status"
+alias gp="git push"
+alias gc="git commit"
 alias gitk='gitk 2>/dev/null' # fix for xcode error with gitk
 
 # rails
@@ -47,6 +49,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export MANPATH=`/usr/bin/manpath`
 export BUNDLER_EDITOR="/usr/local/bin/mvim"
 export ANDROID_HOME="/usr/local/Cellar/android-sdk/24.0.2"
-export SCRAPE_BOX="true"
 
 eval "$(rbenv init -)"

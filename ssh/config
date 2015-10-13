@@ -17,4 +17,4 @@ Host derp
  Hostname 192.241.227.104
 Host fixed-upload 
  User ec2-user 
- Hostname 52.7.122.1
+ Hostname ec2-52-7-65-143.compute-1.amazonaws.com 
